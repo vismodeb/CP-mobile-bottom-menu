@@ -1,0 +1,114 @@
+/* 
+  Template Name: 
+  Template URI: https://
+  Author Name: 
+  Author URI: https://
+  Version: 1.0.0
+  Description: This is
+  Tags: html, Css, Bootstrap
+*/
+
+/* Default Css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent;
+}
+body {
+  font-weight: 400;
+  background-color: #000000;
+  font-size: 14px;
+	font-weight: 400;
+  font-family: "Helvetica Neue",Helvetica,Tahoma,"PingFang SC","Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif!important;
+}
+html {
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+a,a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+/* start mobile bottom nav 
+********************************/
+.mobile_bottom_nav{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+.bottom_manu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottomf_login_btn,
+.bottom_signup_btn,
+.single_bottom_item{
+  width: 33.3%;
+}
+.single_bottom_item a{
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 10px;
+  background: #d7e3f0;
+}
+.single_bottom_item a img{
+  max-width: 30px;
+  width: 100%;
+  height: auto;
+}
+.bottom_menu_text a span{
+  color: #333;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+}
+.signup_btn{
+  width: 100%;
+  display: inline-block;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  padding: 14px;
+  text-align: center;
+}
+.login_btn{
+  width: 100%;
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  background: #005dac;
+  padding: 14px;
+  text-align: center;
+}
+
+
